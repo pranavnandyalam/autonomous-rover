@@ -1,0 +1,12 @@
+path: /Users/prn/Documents/Code/ENGR100/wheelchair_yolo
+
+train:
+  - wheelchair.v1i.yolo26/train/images
+  - coco_person/train/images
+val:
+  - wheelchair.v1i.yolo26/valid/images
+  - coco_person/valid/images
+test: wheelchair.v1i.yolo26/test/images
+
+nc: 2
+names: ['wheelchair', 'person']

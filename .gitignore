@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.DS_Store
+*.log
+follow_log*.txt
+train_log.txt
+wheelchair_yolo/coco_person/
+runs/
+!runs/detect/wheelchair_person/weights/best.pt

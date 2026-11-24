@@ -1,0 +1,16 @@
+train: /Users/prn/Documents/Code/ENGR100/wheelchair_yolo/wheelchair.v1i.yolo26/train/images
+val: /Users/prn/Documents/Code/ENGR100/wheelchair_yolo/wheelchair.v1i.yolo26/valid/images
+test: /Users/prn/Documents/Code/ENGR100/wheelchair_yolo/wheelchair.v1i.yolo26/test/images
+
+path: /Users/prn/Documents/Code/ENGR100/wheelchair_yolo/wheelchair.v1i.yolo26
+
+#add person
+nc: 2
+names: ['wheelchair', 'person']
+
+roboflow:
+  workspace: debian-leonin-wtdkl
+  project: wheelchair-km5jy
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/debian-leonin-wtdkl/wheelchair-km5jy/dataset/1
